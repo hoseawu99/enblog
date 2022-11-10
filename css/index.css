@@ -1,0 +1,47 @@
+@font-face {
+    font-family: raxey;
+    src: url("/css/fonts/Note-Script-Regular-2.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+div#container {
+    margin: auto;
+    min-width: 960px;
+    max-width: 1080px;
+}
+
+ul.nav-list {
+    background-color: #efefef;
+    height: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+li.nav-item {
+    float: left;
+    list-style: none;
+    padding: 0 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+    height: 35px;
+    line-height: 30px;
+    cursor: pointer;
+    font-family: serif;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+li.nav-item.logo {
+
+}
+
+li.nav-item.active {
+    background-color: #fff;
+}
